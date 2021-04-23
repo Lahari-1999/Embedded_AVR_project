@@ -4,4 +4,4 @@
 
 |ON|OFF|
 |----|-----|
-|![ON](Simulation\ON.PNG)|![OFF](Simulation\OFF.PNG)|
+|![ON](Simulation/ON.PNG)|![OFF](Simulation/OFF.PNG)|
