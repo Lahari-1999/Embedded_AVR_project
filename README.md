@@ -4,7 +4,7 @@
 
 |ON|OFF|
 |----|-----|
-|![ON](Simulation/ON.PNG)|![OFF](Simulation/OFF.PNG)|
+|![ON](ActivityOne/Simulation\ON.PNG)|![OFF](ActivityOne\Simulation\OFF.PNG)|
 
 
 
