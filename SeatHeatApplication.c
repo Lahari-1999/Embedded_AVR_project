@@ -1,6 +1,6 @@
 
 /**
- * @file SeatHeaterApplication.c
+ * @file SeatHeatApplication.c
  * @author 260904 (you@domain.com)
  * @brief
  * @version 0.1
