@@ -12,8 +12,8 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include"activity1.h"
-#include"activity2.h"
+#include "activity1.h"
+#include "activity2.h"
 
 /**
  * @brief Main function
@@ -36,7 +36,7 @@ int main(void)
                 _delay_ms(20);
                 SET_LED_ON; // set 0th bit of port B as 1, then led glow
                 temp = ReadADC(0);
-                _delay_ms(200);
+                _delay_ms(20);
 
 
         }
