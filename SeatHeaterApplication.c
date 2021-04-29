@@ -28,19 +28,19 @@ int main(void)
 
     while(1)
     {
-       if(!(BUTTON_ON || HEATER_ON)) { //Set PIND 0th and PIND 1st.It checks if the button is pressed or not.
-
+       if(!(BUTTON_ON || HEATER_ON))  //setting if the input bit to 0th bit of pinB is made 0 from 1 by pressing led
+{
                 _delay_ms(20);
                 SET_LED_ON; //set portB0 it will ON the led
-                temp = ReadADC(1);
+                temp = ReadADC(1); // setting channel to 1
                 _delay_ms(200);
 
 
         }
         else
         {
-                _delay_ms(20);
-                SET_LED_OFF; //clear portB0 it will OFF the led
+                _delay_ms(200);
+                SET_LED_OFF; //clear 0th bit of portB and it will OFF the led
         }
     }
 
