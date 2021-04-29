@@ -9,6 +9,21 @@
 ## Activity2
 ![ACtivity2](Simulation/Activity2.PNG)
 
+## Activity3 
+
+### 20% of dutycycle
+
+![20%](Simulation/Activity3/20%.PNG)
+
+### 40% of dutycycle
+![40%](Simulation/Activity3/40%.PNG)
+
+### 80% of dutycycle
+![80%](Simulation/Activity3/80%.PNG)
+
+### 100% of dutycycle
+![100%](Simulation/Activity3/100%.PNG)
+
 
 
 

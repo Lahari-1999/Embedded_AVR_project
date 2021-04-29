@@ -11,8 +11,9 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include"activity1.h"
-#include"activity2.h"
+#include "activity1.h"
+#include "activity2.h"
+#include "activity3.h"
 
 
 /**
@@ -25,6 +26,7 @@ int main(void)
 {
     activity1();
     InitADC();
+    activity3();
     uint16_t temp;
     
 
@@ -36,6 +38,7 @@ int main(void)
                 _delay_ms(20);
                 SET_LED_ON; //set portB0 it will ON the led
                 temp = ReadADC(1); // setting channel to 1
+                 PWMoutput(temp); //generate PWM output
                 _delay_ms(200);
 
 
@@ -43,6 +46,7 @@ int main(void)
         else
         {
                 _delay_ms(20);
+                OCR1A = 0; //if IF condtion fails PWM is set to 0
                 SET_LED_OFF; //clear 0th bit of portB and it will OFF the led
         }
     }
