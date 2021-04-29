@@ -21,8 +21,20 @@
 ### 80% of dutycycle
 ![80percent](Simulation/80percent.PNG)
 
+
 ### 100% of dutycycle
 ![100percent](Simulation/100percent.PNG)
+
+## SeatHeaterApplication
+
+### Activity 4
+
+### ON condition
+![activity4ON](Simulation\activity4ON.PNG)
+
+### OFF condition
+
+![activity4OFF](Simulation\actvitiy4OFF.PNG)
 
 
 
