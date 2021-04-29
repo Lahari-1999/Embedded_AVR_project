@@ -13,7 +13,7 @@
 
 ### 20% of dutycycle
 
-![20%](Simulation/Activity3/20%.PNG)
+![screen 1500px](Simulation/Activity3/20%.PNG)
 
 ### 40% of dutycycle
 ![40%](Simulation/Activity3/40%.PNG)
