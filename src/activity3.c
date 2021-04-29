@@ -13,7 +13,12 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-void activity3(void){
+
+/**
+ * @brief of activity3
+ * 
+ */
+ void activity3(void){
 
     SET_TIMER1A; //Set Timer1A which is fast PWM
     PRESCALER_64; //prescalar 64
@@ -21,7 +26,12 @@ void activity3(void){
 
 }
 
-void PWMoutput(uint16_t ADC_Value){
+/**
+ * @brief 
+ * 
+ * @param ADC_Value 
+ */
+ void PWMoutput(uint16_t ADC_Value){
 
     if((ADC_Value>=0) && (ADC_Value<=200)){
 

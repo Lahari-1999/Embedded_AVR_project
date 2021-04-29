@@ -14,6 +14,8 @@
 #include "activity1.h"
 #include "activity2.h"
 #include "activity3.h"
+#include "activity4.h"
+
 
 
 /**
@@ -25,8 +27,9 @@
 int main(void)
 {
     activity1();
-    InitADC();
+    InitADC();   //Initialise the ADC
     activity3();
+    UARTinit(103); //Initialise UART registers
     uint16_t temp;
     
 

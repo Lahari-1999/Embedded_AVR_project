@@ -13,7 +13,13 @@
 #include <util/delay.h>
 #include"activity1.h"
 
-void activity1()
+/**
+ * @brief of activity1
+ * 
+ */
+ void activity1()
+
+
 {
 SET_LED; // set LED as output
 CLEAR_BUTTON_DATA; //clear PORTD with 0th bit.
