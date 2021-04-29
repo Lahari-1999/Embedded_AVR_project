@@ -26,9 +26,9 @@
 
 int main(void)
 {
-    activity1();
+    activity1();  //Initialise the button input registers
     InitADC();   //Initialise the ADC
-    activity3();
+    activity3();  //Initialise the registers for TIMER1 as fast PWM
     UARTinit(103); //Initialise UART registers
     uint16_t temp;
     
