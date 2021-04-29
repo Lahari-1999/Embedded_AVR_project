@@ -13,16 +13,16 @@
 
 ### 20% of dutycycle
 
-![20%](Simulation/20%.PNG)
+![20percent](Simulation/20percent.PNG)
 
 ### 40% of dutycycle
-![40%](Simulation/40%.PNG)
+![40percent](Simulation/40percent.PNG)
 
 ### 80% of dutycycle
-![80%](Simulation/80%.PNG)
+![80percent](Simulation/80percent.PNG)
 
 ### 100% of dutycycle
-![100%](Simulation/100%.PNG)
+![100percent](Simulation/100percent.PNG)
 
 
 
