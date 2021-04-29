@@ -1,5 +1,18 @@
 # Embedded_AVR_project
 
+## Activity1
+
+|ON|OFF|     
+|----|-----| 
+|![ON](Simulation/ON.PNG)|![OFF](Simulation/OFF.PNG)|
+
+## Activity2
+![ACtivity2](Simulation/Activity2.PNG)
+
+
+
+
+
 ## In Action
 
 
