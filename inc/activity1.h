@@ -1,6 +1,6 @@
 /**
  * @file activity1.h
- * @author vootla lahari sfid:260904 (you@domain.com)
+ * @author vootla lahari sfid:260904  (you@domain.com)
  * @brief
  * @version 0.1
  * @date 2021-04-23
@@ -14,33 +14,23 @@
 
 #include <avr/io.h>
 
-#define SET_LED DDRB|=(1<<PB0) 
-//A macro to set the LED and making 1st bit as PORTB .
+#define SET_LED DDRB|=(1<<PB0) // macro to Set PORTB 0th bit as LED.
 
+#define CLEAR_BUTTON_DATA DDRD&=~(1<<PD0) //macro to clear previous data in the register D0.
 
-#define CLEAR_BUTTON_DATA DDRD&=~(1<<PD0) 
-//A macro to clear previous data in the register D0.
+#define CLEAR_HEATER_DATA DDRD&=~(1<<PD1) //macro to clear previous data in the register D1.
 
-#define CLEAR_HEATER_DATA DDRD&=~(1<<PD1) 
-//A macro to clear previous data in the register D1.
+#define PULLUP_BUTTON PORTD|=(1<<PD0) //macro to Set PORTD 0th bit as Button sensor.
 
-#define PULLUP_BUTTON PORTD|=(1<<PD0) 
-//A macro to Set 0th bit as PORTD and make it as Button sensor.
+#define PULLUP_HEATER PORTD|=(1<<PD1) //macro to Set PORTD 1st bit as Heater.
 
-#define PULLUP_HEATER PORTD|=(1<<PD1) 
-//A macro to Set PORTD as 1st bit and make it as Heater.
+#define BUTTON_ON (PIND&(1<<PD0)) //macro to Set PIND 0th pin it checks if the button is pressed or not.
 
-#define BUTTON_ON (PIND&(1<<PD0)) 
-//A macro to Set 0th bit as PIND and it checks if the button is on or off.
+#define HEATER_ON (PIND&(1<<PD1)) // macro to Set PIND 1st pin it checks if the button is pressed or not.
 
-#define HEATER_ON (PIND&(1<<PD1)) 
-// A macro to Set PIND as 1st pin and it checks if the button is on or off.
+#define SET_LED_ON PORTB|=(1<<PB0) //macro to Set the LED PORTB 0th port.
 
-#define SET_LED_ON PORTB|=(1<<PB0) 
-//A macro to Set the LED  0th Bit of PORTB.
-
-#define SET_LED_OFF PORTB&=~(1<<PB0) 
-//A macro to clear the LED 1st bit as PORTB .
+#define SET_LED_OFF PORTB&=~(1<<PB0) //macro to clear the LED PORTB 1st port.
 
 
 void activity1();

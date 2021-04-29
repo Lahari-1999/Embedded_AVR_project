@@ -1,7 +1,6 @@
-
 /**
- * @file SeatHeatApplication.c
- * @author 260904 (you@domain.com)
+ * @file SeatHeaterApplication.c
+ * @author vootla lahari sfid:260904 (you@domain.com)
  * @brief
  * @version 0.1
  * @date 2021-04-27
@@ -12,8 +11,8 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include "activity1.h"
-#include "activity2.h"
+#include"activity1.h"
+#include"activity2.h"
 
 /**
  * @brief Main function
@@ -29,21 +28,19 @@ int main(void)
 
     while(1)
     {
-       if(!(BUTTON_ON || HEATER_ON)) //setting if the input bit to 0th bit of pinB is made 0 from 1 by pressing led
+       if(!(BUTTON_ON || HEATER_ON)) { //Set PIND 0th and PIND 1st.It checks if the button is pressed or not.
 
-
- { 
                 _delay_ms(20);
-                SET_LED_ON; // set 0th bit of port B as 1, then led glow
-                temp = ReadADC(0);
-                _delay_ms(20);
+                SET_LED_ON; //set portB0 it will ON the led
+                temp = ReadADC(1);
+                _delay_ms(200);
 
 
         }
         else
         {
                 _delay_ms(20);
-                SET_LED_OFF; //clear 0th bit of portB it will OFF the led
+                SET_LED_OFF; //clear portB0 it will OFF the led
         }
     }
 

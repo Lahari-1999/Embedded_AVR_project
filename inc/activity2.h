@@ -1,6 +1,6 @@
 /**
  * @file activity2.h
- * @author  vootla lahari sfid:260904 (you@domain.com)
+ * @author vootla lahari sfid:260904 (you@domain.com)
  * @brief
  * @version 0.1
  * @date 2021-04-27
