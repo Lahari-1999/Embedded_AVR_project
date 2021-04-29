@@ -5,7 +5,7 @@ BUILD_DIR = Build
 # All Source code files
 SRC = src/activity1.c\
 src/activity2.c\
-SeatHeatApplication.c
+SeatHeaterApplication.c
 
 # All header file paths
 INC = -I inc
