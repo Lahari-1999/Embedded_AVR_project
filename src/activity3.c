@@ -35,12 +35,12 @@ void PWMoutput(uint16_t ADC_Value){
     }
     else if((ADC_Value>=510) && (ADC_Value<=700)){
 
-        OCR1A = 673;   //70% of duty cycle
+        OCR1A = 670;   //80% of duty cycle
         _delay_ms(20);
     }
     else if((ADC_Value>=710) && (ADC_Value<=1024)){
 
-        OCR1A = 973;   //95% of duty cycle
+        OCR1A = 970;   //100% of duty cycle
         _delay_ms(20);
     }
     else{
