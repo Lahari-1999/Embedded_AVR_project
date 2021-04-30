@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_activity3_8c" xml:lang="en-US">
-<title>activity3.c File Reference</title>
-<indexterm><primary>activity3.c</primary></indexterm>
+<title>src/activity3.c File Reference</title>
+<indexterm><primary>src/activity3.c</primary></indexterm>
 <programlisting>#include &quot;activity3.h&quot;
 #include &lt;avr/io.h&gt;
 #include &lt;util/delay.h&gt;

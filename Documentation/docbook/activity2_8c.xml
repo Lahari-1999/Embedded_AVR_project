@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_activity2_8c" xml:lang="en-US">
-<title>activity2.c File Reference</title>
-<indexterm><primary>activity2.c</primary></indexterm>
+<title>src/activity2.c File Reference</title>
+<indexterm><primary>src/activity2.c</primary></indexterm>
 <programlisting>#include &lt;avr/io.h&gt;
 #include &quot;activity2.h&quot;
 </programlisting><simplesect>
