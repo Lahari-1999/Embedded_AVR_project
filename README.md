@@ -30,7 +30,7 @@
 ### Activity 4
 
 ### ON condition
-![SeatHeaterApplication](Simulation\SeatHeaterApplication .gif)
+![SeatHeaterApplication](Simulation/SeatHeaterApplication .gif)
 
 ### OFF condition
 
