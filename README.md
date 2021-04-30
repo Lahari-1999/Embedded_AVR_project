@@ -30,7 +30,7 @@
 ### Activity 4
 
 ### ON condition
-![activity4ON](Simulation/activity4ON.PNG)
+![activity4](Simulation/activity4ON.PNG)
 
 ### OFF condition
 
