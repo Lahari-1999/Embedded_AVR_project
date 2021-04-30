@@ -31,14 +31,12 @@
 
 ### ON condition
 
-![activity4](Simulation/activity4ON.PNG)
+![SeatHeaterApplication](Simulation/SeatHeaterApplication .gif)
 
 
 ### OFF condition
 
 ![activity4OFF](Simulation/actvitiy4OFF.PNG)
-
-
 
 
 
