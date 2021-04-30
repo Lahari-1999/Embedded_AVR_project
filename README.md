@@ -1,5 +1,7 @@
 # Embedded_AVR_project
 
+
+
 ## Activity1
 
 |ON|OFF|     
@@ -31,7 +33,7 @@
 
 ### ON condition
 
-![SeatHeaterApplication](Simulation/SeatHeaterApplication .gif)
+![SeatHeaterApplication](Simulation/SeatHeaterApplication.gif)
 
 
 ### OFF condition
@@ -39,8 +41,8 @@
 ![activity4OFF](Simulation/actvitiy4OFF.PNG)
 
 
-
 ## In Action
+
 
 
 |Build|CppCheck|Codacy| 
